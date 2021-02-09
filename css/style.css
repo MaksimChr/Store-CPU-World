@@ -3,3 +3,55 @@
     padding: 15px;
     display: flex;
 }
+
+
+.leftandright{
+    display: flex;
+}
+
+.leftcol{
+    justify-content: left;
+    width: 50%;
+}
+
+.rightcol{
+    justify-content: right;
+    width: 50%;
+}
+
+.carousel-control-prev{
+    left: -50px;
+}
+
+.carousel-control-next{
+    right: -50px;
+}
+
+.container-xxl{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.customBorder1{
+    border-bottom: 3px solid black ;
+    margin: 15px;
+}
+
+.customBorder{
+    border-right: 3px solid black;
+    margin: 15px;
+}
+
+.customBorder3{
+    margin: 15px;
+}
+
+.textCenter{
+ text-align: center;
+}
+
+.aCustom:hover{
+    color: #D35BFA;
+    background: black;
+    border: 5px solid black;
+}
