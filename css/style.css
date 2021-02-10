@@ -1,4 +1,10 @@
 
+body{
+    background: -webkit-linear-gradient(180deg, rgb(251, 255, 255), rgb(225, 254, 255), rgb(251, 255, 255));
+    background: -moz-linear-gradient(180deg, rgb(251, 255, 255), rgb(225, 254, 255), rgb(251, 255, 255));
+    background: linear-gradient(180deg, rgb(251, 255, 255), rgb(225, 254, 255), rgb(251, 255, 255));
+}
+
 .test{
     padding: 15px;
     display: flex;
@@ -55,3 +61,8 @@
     background: black;
     border: 5px solid black;
 }
+
+li{
+    list-style-type: none; 
+}
+  
